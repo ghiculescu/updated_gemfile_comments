@@ -19,6 +19,7 @@ gem 'webpacker', '~> 5.0'
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.7'
+
 # Optional gems needed by specific Rails features:
 
 # Use bcrypt to encrypt passwords securely. Works with https://guides.rubyonrails.org/active_model_basics.html#securepassword
@@ -28,7 +29,6 @@ gem 'jbuilder', '~> 2.7'
 # gem 'redis', '~> 4.0'
 
 # The gems below are used in development, but if they cause problems it's OK to remove them
-
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
@@ -54,7 +54,6 @@ group :test do
   # Easy installation and use of web drivers to run system tests with browsers
   gem 'webdrivers'
 end
-
 
 # Speed up boot time by caching dependencies; configured in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
