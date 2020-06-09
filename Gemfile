@@ -56,6 +56,7 @@ group :test do
 end
 
 # Speed up boot time by caching dependencies; configured in config/boot.rb
+# Learn more: https://github.com/Shopify/bootsnap
 gem 'bootsnap', '>= 1.4.4', require: false
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
